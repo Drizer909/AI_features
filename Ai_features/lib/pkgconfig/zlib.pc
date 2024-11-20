@@ -1,0 +1,13 @@
+prefix=/Users/drizer/Desktop/video_summaries/youtube
+exec_prefix=/Users/drizer/Desktop/video_summaries/youtube
+libdir=/Users/drizer/Desktop/video_summaries/youtube/lib
+sharedlibdir=/Users/drizer/Desktop/video_summaries/youtube/lib
+includedir=/Users/drizer/Desktop/video_summaries/youtube/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
